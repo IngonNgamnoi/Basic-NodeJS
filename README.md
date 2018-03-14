@@ -38,7 +38,7 @@ docker run --name some-app --link mongo:mongo -d application-that-uses-mongo
 
 1. เข้าไปยัง container mongo ผ่านคำสั่ง
 ```
-docker exec -it mongo mongo
+ docker exec -it mongo mongo
 ````
 2. พิมพ์คำสั่ง สำหรับสร้างผู้ใช้งาน
 ```
